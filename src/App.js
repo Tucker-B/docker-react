@@ -7,10 +7,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload. OR NOT LOL xD
+          Edit <code>src/App.js</code> and save to reload.
         </p>
-        <p>Play League of legends </p>
-        <p>BANG</p>
+
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -19,6 +18,9 @@ function App() {
         >
           Learn React
         </a>
+        <p className='App-intro'>
+          I was changed on the Feature branch
+        </p>
       </header>
     </div>
   );
