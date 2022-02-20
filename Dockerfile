@@ -11,6 +11,7 @@ RUN npm run build
 
 # Install base image 
 FROM nginx
+EXPOSE 80
 COPY --from=builder /app/build /usr/share/nginx/html
 
 
